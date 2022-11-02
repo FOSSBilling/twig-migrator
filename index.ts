@@ -12,7 +12,7 @@ function migrateTranslationTag(content:string): string {
         matches.forEach((match) => {
             // Replace the old syntax with the new syntax.
             // Group "TagOpener" is the opening tag, group "String" is the string to be translated, group "TagCloser" is the closing tag.
-            content = content.replace(match, match.replace(regex, '{{ $<String> | trans }}'));
+            content = content.replace(match, match.replace(regex, '{{ \'$<String>\' | trans }}'));
         });
     }
 
