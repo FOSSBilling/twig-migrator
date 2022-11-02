@@ -1,5 +1,6 @@
 # twig-migrator
 A tool to migrate Twig templates from the latest BoxBilling to FOSSBilling. Written in TypeScript.
+Currently has some known bugs. Make sure you know what you're doing and have a backup ready before using it.
 
 ## Usage
 1. Clone this repository
